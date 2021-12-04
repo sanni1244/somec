@@ -1,0 +1,153 @@
+body{
+    background-color: #FFFFFF;
+}
+.body{ 
+     padding: 10%;
+     padding-bottom: 3%;
+    }
+.linky{
+    color: #000000;;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+.label{
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 10px;
+}
+.actlink{
+    border-bottom: #C7C7C7 solid 4px;
+}
+.goback{
+    width: 35px;
+    margin-left: 8%;
+    margin-top: -1%;
+}
+
+.myrule{
+    height: 0px;
+    border: 1px solid #BCBBBB;
+    filter: blur(1px);
+    margin: -2px
+}
+.custnav{
+    gap: 35%;
+}
+.content_sec{
+    margin-left: 10%;
+    font-family: roboto;
+}
+.thebox{
+    width: 36%;
+    height: 40px;
+    background: #C4C4C4;
+    border-radius: 4px;
+    padding: 17px;
+    font-size: 14px;
+    border: none;
+}
+::-webkit-input-placeholder { /* Edge */
+    color:  #333333;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:  #333333;
+  }
+  
+  ::placeholder {
+    color:  #333333;
+    font-size: 12px;
+
+ }
+.buttons{
+    color: #333333;
+    width: 100px;
+    height: 49px;
+    background: #C4C4C4;
+    border-radius: 7px;
+    margin-left: 40%;
+    font-family: Nunito;
+    font-weight: 800;
+    border: none;
+    
+  }
+.box1{
+    background: linear-gradient(0deg, rgba(188, 187, 187, 0.03), rgba(188, 187, 187, 0.03)), #FFFFFF;
+    border: 1px solid rgba(104, 104, 104, 0.15);
+    height: 100px;
+    width: 140px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+    border-radius: 28px;
+}
+.ecl{
+    background: #C4C4C4;
+    width: 3000px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);  
+}
+.main-cont{
+    display: flex; 
+    gap: 20px; 
+    justify-content: center;
+}
+@media(max-width: 1170px){
+    .custnav{
+        gap: 30%;
+    }
+}
+@media(max-width: 900px){
+    .custnav{
+        gap: 25%;
+    }
+    
+}
+@media(max-width: 700px){
+    .custnav{
+        gap: 20%;
+    }
+    .thebox{
+        width: 50%;
+    }
+    .buttons{
+        margin-left: 10%;
+        
+      }
+}
+@media(max-width: 600px){
+    .custnav{
+        gap: 15%;
+    }
+}
+@media(max-width: 500px){
+    .custnav{
+        gap: 10%;
+    }
+}
+@media(max-width: 428px){
+    .custnav{
+        gap: 5%;
+   }
+   
+}
+@media(max-width: 381px){
+    .custnav{
+        gap: 0%;
+    }
+}
+@media(max-width: 345px){
+   .custnav a{
+        font-size: 12px;
+   }
+   .buttons{
+    margin-left: 7%;
+    
+  }
+}
